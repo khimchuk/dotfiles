@@ -1,0 +1,11 @@
+.bashrc|
+.gdbinit|
+gf2_config.ini|.config
+.gitconfig|
+i3|.config
+.i3status.conf|
+.inputrc|
+.screen-setup|
+settings.ini|.config/gtk-3.0
+.tmux.conf|
+.vimrc|
