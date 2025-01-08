@@ -8,7 +8,7 @@ symlink_file() {
     file="$SCRIPT_DIR/$1"
 
     if [[ ! -e "$file" ]]; then
-        echo "[ERROR] File <$1> doesn't exist"
+        echo "[ERROR] File $1 doesn't exist"
         return
     fi
 
@@ -17,10 +17,10 @@ symlink_file() {
     mkdir -p $(dirname "$target")
 
     if [[ -L "$target" ]]; then
-        echo "[NOTE] <$1> is already symlinked"
+        echo "[NOTE] $1 is already symlinked"
         return 
     elif [[ -e "$target" ]]; then
-        echo "[WARNING] <$1> is already exist, but not symlinked"
+        echo "[WARNING] $1 is already exist, but not symlinked"
         return
     fi
 
@@ -48,7 +48,7 @@ if [[ -z "$1" ]]; then
 fi
 
 if [[ ! -e "$1" ]]; then
-    echo "[ERROR] LAYOUT file <$1> doesn't exist"
+    echo "[ERROR] LAYOUT file doesn't exist"
     exit 1
 fi
 
