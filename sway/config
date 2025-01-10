@@ -24,7 +24,7 @@ include /etc/sway/config-vars.d/*
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg ~/Downloads/wallhaven-4yy2gl.png fill
+output * bg ~/lol.png fill
 #
 # Example configuration:
 #
@@ -224,7 +224,7 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+    status_command while date +'%Y-%m-%d %H:%M:%S'; do sleep 1; done
 
     colors {
         statusline #ffffff
@@ -234,3 +234,9 @@ bar {
 }
 
 include /etc/sway/config.d/*
+
+#focus_follows_mouse no
+
+hide_edge_borders both
+
+#default_border none
