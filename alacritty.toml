@@ -1,0 +1,15 @@
+[font]
+normal.family = "Comic Mono"
+
+[keyboard]
+bindings = [
+   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
+[window]
+opacity = 0.8
+padding.x = 0
+padding.y = 0
+
+[selection]
+save_to_clipboard = true
