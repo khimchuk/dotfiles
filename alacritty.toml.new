@@ -1,0 +1,14 @@
+[font]
+normal.family = "Comic Code"
+size = 19
+
+[window]
+opacity = 0.95
+
+[colors.primary]
+#background = "#0f1014"
+#background = "#000000"
+#background = "#181818"
+#foreground = "#ffffff"
+#background = "#ababab"
+#foreground = "#000000"
